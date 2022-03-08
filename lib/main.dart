@@ -39,12 +39,7 @@ class _MyAppState extends State<MyApp> {
 
             break;
         }
-        listHasil.add('Konversi dari ' +
-            etInput.text +
-            ' Celcius ke ' +
-            selectedDropdown +
-            ' Dengan Hasil ' +
-            _result.toString());
+        listHasil.add(selectedDropdown + ' : ' + _result.toString());
       }
     });
   }
